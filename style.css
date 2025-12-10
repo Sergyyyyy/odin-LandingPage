@@ -34,3 +34,28 @@ header{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.Hero{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Hero_Left{
+    flex: 1;
+}
+
+.Hero_Right{
+    flex: 1;    
+    height: 300px;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.Hero_Img{
+    background-color: gray;
+    height: 100%;
+    width: 60%;
+}
