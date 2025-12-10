@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, "sans-serif";
+}
+
+
+header{
+    padding: 2rem;
+    background-color: #1F2937;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.Logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header_items{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header_items a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
