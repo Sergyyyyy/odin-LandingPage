@@ -136,3 +136,24 @@ header{
     text-align: center;
     width: 200px;
 }
+
+.Quote{
+    padding: 4rem 10rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.Quote h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote_author{
+    margin-left: 1000px;
+}
