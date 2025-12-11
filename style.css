@@ -36,6 +36,7 @@ header{
 }
 
 .Hero{
+    background-color: #1F2937;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -45,6 +46,11 @@ header{
 
 .Hero_Left{
     flex: 1;
+}
+
+.Hero_Left p{
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .Hero_Right{
@@ -57,5 +63,30 @@ header{
 .Hero_Img{
     background-color: gray;
     height: 100%;
-    width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a9abae;
+}
+
+.Hero_Heading{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.Hero_Btn{
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.Hero_Btn:hover{
+    background-color: #2563EB;
 }
